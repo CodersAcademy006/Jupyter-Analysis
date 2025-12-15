@@ -8,6 +8,59 @@
 .alpackages/
 #Snapshots folder
 .snapshots/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDEs
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Model files
+*.h5
+*.pkl
+*.joblib
+*.model
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
 #Testing Output folder
 .output/
 #Extension App-file
@@ -21,3 +74,4 @@ rad.json
 #Test results file
 TestResults.xml
 Prompt.txt
+CODEBASE_AUDIT_REPORT.md
