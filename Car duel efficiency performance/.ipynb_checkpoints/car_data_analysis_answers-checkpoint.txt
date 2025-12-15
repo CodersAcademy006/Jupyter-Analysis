@@ -1,8 +1,0 @@
-
-1. Overall Fuel Efficiency: The average combined MPG for the dataset is about X MPG, varying across brands and years.
-2. Engine Trends: Smaller engines with fewer cylinders are more common in recent years, indicating a trend towards efficiency.
-3. Drivetrain Distribution: FWD dominates, with AWD vehicles showing lower fuel efficiency.
-4. City vs. Highway Fuel Efficiency: Highway MPG is higher than city MPG on average, especially in SUVs and larger vehicles.
-5. Fuel Efficiency and Engine Size: Larger engines are generally less efficient, but modern designs mitigate this.
-6. Feature Importance: Drivetrain and fuel type are important factors affecting fuel efficiency.
-7. Clustering Analysis: Three main clusters emerge based on MPG, with distinct differences in city and highway performance.
