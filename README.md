@@ -1,7 +1,7 @@
 # 🎯 Jupyter Analysis Repository
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/downloads/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](LICENSE)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
 
 ## 📊 Overview
@@ -202,7 +202,7 @@ Contributions, issues, and feature requests are welcome!
 
 ## 📄 License
 
-This repository is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+This repository is licensed under the Apache License 2.0. See [LICENSE](LICENSE) for details.
 
 ---
 
