@@ -6,16 +6,30 @@
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
 
 
+## Quick Navigation
+
+**Hiring for Specific Domains?** Jump directly to:
+- [🏥 Healthcare Projects](Domain_Projects/Healthcare/) | [💰 Finance Projects](Domain_Projects/Finance/) | [🛒 Retail Projects](Domain_Projects/Retail_Ecommerce/)
+- [⚡ Energy Projects](Domain_Projects/Energy_Sustainability/) | [🎓 Education Projects](Domain_Projects/Education/) | [💻 Technology Projects](Domain_Projects/Technology_Consumer/)
+
+**Looking for ML Techniques?** Browse by capability:
+- [📊 EDA](Core_ML_Projects/EDA/) | [📈 Regression](Core_ML_Projects/Regression/) | [💬 NLP](Core_ML_Projects/NLP_Projects/) | [🎯 Recommender Systems](Core_ML_Projects/Recommender_Systems/)
+
+**Want Top Showcase Work?** See [Featured Projects](Featured%20Projects/)
+
+---
+
 ## Executive Summary
 
 This portfolio demonstrates advanced applied data science and machine learning solutions across finance, healthcare, retail, and technology domains. Projects are designed to meet institutional standards for reproducibility, auditability, and business impact—reflecting the rigor expected at leading firms such as JP Morgan.
 
 **Portfolio Highlights:**
 - 🏆 **Flagship Projects:** Institutional-grade modeling, forecasting, and NLP
+- 🎯 **Domain Expertise:** Healthcare, Finance, Retail, Energy, Education, Technology
 - 📊 **Comprehensive EDA:** Robust data exploration and visualization
-- 🤖 **Machine & Deep Learning:** Regression, classification, time series, NLP
+- 🤖 **Machine & Deep Learning:** Regression, classification, time series, NLP, GNN
 - 🏥 **Healthcare Analytics:** ICU mortality, sepsis early warning, risk modeling
-- 💼 **Business Solutions:** Credit risk, e-commerce, recommender systems
+- 💼 **Business Solutions:** Credit risk, e-commerce, quantitative trading, recommender systems
 - 📚 **Professional Documentation:** Each project includes detailed methodology, KPIs, and business insights
 
 
@@ -23,21 +37,25 @@ This portfolio demonstrates advanced applied data science and machine learning s
 
 ```
 Applied-Data-Science-Portfolio/
-├── Featured Projects/           # Flagship institutional-grade projects
+├── Featured Projects/              # 🏆 Top 3 showcase projects
 │   ├── Diamond_Price_Prediction/
 │   ├── Ethereum_LSTM_Forecasting/
 │   └── Genshin_Sentiment_Analysis/
-├── EDA/                        # Exploratory Data Analysis
-├── Regression/                 # Predictive modeling
-├── NLP_Projects/               # Natural Language Processing
-├── Recommender_Systems/        # Recommendation algorithms
-├── Analysis_Projects/          # Domain-specific analyses
-├── Ecommerce/                  # Retail analytics
-├── home-credit-default-risk/   # Credit risk modeling
-├── Study Abroad/               # Education analytics
-├── Laptop Data/                # Consumer tech analytics
-├── mimic-iv-clinical-database-demo-2.2/ # Healthcare analytics
-├── Archived/                   # Experimental & legacy work
+├── Domain_Projects/               # 🎯 Industry-specific projects
+│   ├── Healthcare/                # Clinical analytics, ICU risk modeling
+│   ├── Finance/                   # Quant trading, credit risk, AML
+│   ├── Retail_Ecommerce/          # Customer analytics, logistics
+│   ├── Education/                 # Study abroad, market analysis
+│   ├── Energy_Sustainability/     # Solar efficiency, renewables
+│   └── Technology_Consumer/       # Tech products, sports economics
+├── Core ML Projects/              # 🤖 Foundational ML techniques
+│   ├── EDA/                       # Exploratory Data Analysis
+│   ├── Regression/                # Predictive modeling
+│   ├── NLP_Projects/              # Natural Language Processing
+│   ├── Recommender_Systems/       # Recommendation algorithms
+│   └── Analysis_Projects/         # General analytical work
+├── Archived/                      # 📦 Experimental & legacy work
+└── Kaagle Fun Projects/           # 🎮 Learning & tutorials
 ```
 
 
@@ -81,38 +99,49 @@ Applied-Data-Science-Portfolio/
 - Institutional reporting, business insights, actionable recommendations
 
 
-## Project Categories & Recent Additions
+## Project Organization
 
-### Exploratory Data Analysis (EDA)
-- Car Performance Analysis: Fuel efficiency, comparative statistics
-- Walmart Sales Analysis: Retail trends, time series, price range analytics
-- DebtPenny Analysis: Financial debt, temporal trends
-- Laptop Purchase EDA: Consumer tech market, structural forensics
+This portfolio is organized into three main sections:
 
-### Regression & Classification
-- Finance (Credit Risk): Loan default risk modeling
-- Loan Approval System: Automated loan decisions (Random Forest)
-- Diabetes Prediction: Medical diagnosis, KNN, visualization
+### 🏆 Featured Projects
+Top 3 showcase projects demonstrating advanced capabilities:
+- **Diamond Price Prediction:** Ensemble ML with R² ≈ 0.98
+- **Ethereum LSTM Forecasting:** Deep learning for cryptocurrency prediction
+- **Genshin Sentiment Analysis:** NLP with SMOTE for imbalanced data (85% accuracy)
 
-### Natural Language Processing
-- Resume Screening: Automated candidate matching
-- SMS Spam Detection: Binary text classification
-- Language Classification: Multi-language detection
-- Text Summarization: Extractive summarization
-- US Election Sentiment: Political tweet analysis
-- WhatsApp Sentiment: Chat conversation analysis
+### 🎯 [Domain Projects](Domain_Projects/)
+Industry-specific projects organized by business domain:
 
-### Recommender Systems
-- Book Recommendation System: Collaborative/content-based filtering
+#### [Healthcare Analytics](Domain_Projects/Healthcare/)
+- **MIMIC-IV Clinical Analysis:** ICU mortality prediction, sepsis early warning, causal inference
 
-### Domain-Specific Analysis
-- COVID-19 Vaccines: Global vaccination trends
-- World Billionaires: Wealth distribution analysis
-- Google Search Trends: Pattern discovery
-- Study Abroad Analysis: Education market, fee structure, recommendations
-- Olist E-Commerce Analysis: Retail audit, logistics, customer segmentation
-- Home Credit Default Risk: Portfolio risk signals, red-flag analysis
-- MIMIC-IV ICU Mortality & Sepsis: Healthcare risk modeling, causal inference
+#### [Finance & Quantitative Analytics](Domain_Projects/Finance/)
+- **Anti-Money Laundering:** Graph Neural Networks for Bitcoin fraud detection
+- **High-Frequency Volatility:** Order book analysis with 1D-CNNs
+- **Home Credit Default Risk:** Portfolio risk signals and red-flag analysis
+- **Real Estate Pricing:** Arbitrage engine with ensemble stacking
+- **Financial Sentiment:** FinBERT for alpha generation
+
+#### [Retail & E-Commerce](Domain_Projects/Retail_Ecommerce/)
+- **Olist E-Commerce:** Customer segmentation (RFM), logistics, NLP reviews
+
+#### [Education Analytics](Domain_Projects/Education/)
+- **Study Abroad Analysis:** Market trends, fee structure, program recommendations
+
+#### [Energy & Sustainability](Domain_Projects/Energy_Sustainability/)
+- **Solar Panel Efficiency:** PVGIS integration, physics-based modeling, anomaly detection
+
+#### [Technology & Consumer](Domain_Projects/Technology_Consumer/)
+- **Laptop Data Analysis:** Indian market, brand positioning, pricing strategy
+- **Olympics Economics:** Performance vs GDP, investment ROI
+
+### 🤖 [Core ML Projects](Core_ML_Projects/)
+Foundational machine learning techniques:
+- **EDA:** Car performance, Walmart sales, DebtPenny analysis
+- **Regression:** Credit risk, loan approval, diabetes prediction
+- **NLP:** Resume screening, spam detection, sentiment analysis, text summarization
+- **Recommender Systems:** Book recommendation with collaborative filtering
+- **General Analysis:** COVID-19 vaccines, billionaires, Google trends
 
 
 ## Getting Started
@@ -125,13 +154,14 @@ Applied-Data-Science-Portfolio/
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/CodersAcademy006/Jupyter-Analysis.git
-   cd Jupyter-Analysis
+   git clone https://github.com/CodersAcademy006/Applied-Data-Science-Portfolio.git
+   cd Applied-Data-Science-Portfolio
    ```
 2. Create a virtual environment (recommended):
    ```bash
    python -m venv venv
-   venv\Scripts\activate  # On Windows
+   source venv/bin/activate  # On Linux/Mac
+   venv\Scripts\activate     # On Windows
    ```
 3. Install dependencies:
    ```bash
@@ -143,10 +173,43 @@ Applied-Data-Science-Portfolio/
    ```
 
 ### Running Projects
-Navigate to any project directory and launch Jupyter:
+
+#### For Domain-Specific Projects:
 ```bash
-jupyter notebook <notebook_name>.ipynb
+cd Domain_Projects/<domain_name>/<project_name>
+jupyter notebook
 ```
+
+#### For Core ML Projects:
+```bash
+cd Core_ML_Projects/<category>
+jupyter notebook
+```
+
+#### For Featured Projects:
+```bash
+cd "Featured Projects"/<project_name>
+jupyter notebook
+```
+
+### Navigation Guide
+
+**For Industry-Specific Work:**
+- Healthcare → `Domain_Projects/Healthcare/`
+- Finance/Trading → `Domain_Projects/Finance/`
+- Retail/E-commerce → `Domain_Projects/Retail_Ecommerce/`
+- Energy/Sustainability → `Domain_Projects/Energy_Sustainability/`
+- Education → `Domain_Projects/Education/`
+- Consumer Tech → `Domain_Projects/Technology_Consumer/`
+
+**For ML Technique Examples:**
+- Data Exploration → `Core_ML_Projects/EDA/`
+- Predictive Modeling → `Core_ML_Projects/Regression/`
+- Text Analytics → `Core_ML_Projects/NLP_Projects/`
+- Recommendations → `Core_ML_Projects/Recommender_Systems/`
+
+**For Top Showcase Work:**
+- Featured Projects → `Featured Projects/`
 
 
 ## Documentation & Auditability
