@@ -1,127 +1,121 @@
-# 🎯 Jupyter Analysis Repository
+# 🏛️ Applied Data Science Portfolio
+
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](LICENSE)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
 
-## 📊 Overview
 
-Welcome to my comprehensive data science portfolio! This repository showcases 15+ projects spanning exploratory data analysis, machine learning, deep learning, NLP, and time-series forecasting. Each project demonstrates practical applications of data science techniques to real-world problems.
+## Executive Summary
 
-**Repository Highlights:**
-- 🎓 **15+ Complete Projects** across multiple domains
-- 🏆 **3 Featured Projects** showcasing advanced techniques
-- 📈 **Diverse Techniques:** Regression, Classification, Deep Learning, NLP, Time Series
-- 📚 **Well-Documented:** Each project includes comprehensive README files
-- 🔧 **Production-Ready:** Clean code, proper structure, reproducible results
+This portfolio demonstrates advanced applied data science and machine learning solutions across finance, healthcare, retail, and technology domains. Projects are designed to meet institutional standards for reproducibility, auditability, and business impact—reflecting the rigor expected at leading firms such as JP Morgan.
 
-## 🗂️ Repository Structure
+**Portfolio Highlights:**
+- 🏆 **Flagship Projects:** Institutional-grade modeling, forecasting, and NLP
+- 📊 **Comprehensive EDA:** Robust data exploration and visualization
+- 🤖 **Machine & Deep Learning:** Regression, classification, time series, NLP
+- 🏥 **Healthcare Analytics:** ICU mortality, sepsis early warning, risk modeling
+- 💼 **Business Solutions:** Credit risk, e-commerce, recommender systems
+- 📚 **Professional Documentation:** Each project includes detailed methodology, KPIs, and business insights
+
+
+## Repository Structure
 
 ```
-Jupyter-Analysis/
-├── 🌟 Featured Projects/        # Top 3 showcase projects
+Applied-Data-Science-Portfolio/
+├── Featured Projects/           # Flagship institutional-grade projects
 │   ├── Diamond_Price_Prediction/
 │   ├── Ethereum_LSTM_Forecasting/
 │   └── Genshin_Sentiment_Analysis/
-├── 📊 EDA/                      # Exploratory Data Analysis
-├── 📈 Regression/               # Predictive modeling
-├── 🤖 NLP_Projects/             # Natural Language Processing
-├── 💡 Recommender_Systems/      # Recommendation algorithms
-├── 📉 Analysis_Projects/        # Domain-specific analyses
-└── 📦 Archived/                 # Experimental work
+├── EDA/                        # Exploratory Data Analysis
+├── Regression/                 # Predictive modeling
+├── NLP_Projects/               # Natural Language Processing
+├── Recommender_Systems/        # Recommendation algorithms
+├── Analysis_Projects/          # Domain-specific analyses
+├── Ecommerce/                  # Retail analytics
+├── home-credit-default-risk/   # Credit risk modeling
+├── Study Abroad/               # Education analytics
+├── Laptop Data/                # Consumer tech analytics
+├── mimic-iv-clinical-database-demo-2.2/ # Healthcare analytics
+├── Archived/                   # Experimental & legacy work
 ```
 
-## 💎 Featured Projects
+
+## Flagship Projects
 
 ### 1. [Diamond Price Prediction](Featured%20Projects/Diamond_Price_Prediction/)
 **Regression | ML | Feature Engineering**
-
-Predict diamond prices with 98% accuracy using ensemble methods (Random Forest, XGBoost). Comprehensive analysis of 53K+ diamonds.
-
-**Key Skills:** Feature Engineering, Model Comparison, Ensemble Methods  
-**Performance:** R² = 0.98, RMSE = $550
-
----
+- Predict diamond prices with ensemble ML (Random Forest, XGBoost)
+- Advanced feature engineering, model selection, and business impact analysis
+- R² ≈ 0.98, RMSE ≈ $550
 
 ### 2. [Ethereum Price Forecasting](Featured%20Projects/Ethereum_LSTM_Forecasting/)
 **Deep Learning | Time Series | LSTM**
-
-Cryptocurrency price prediction using LSTM neural networks. Demonstrates advanced time-series modeling with TensorFlow/Keras.
-
-**Key Skills:** LSTM Architecture, Time Series, Financial Forecasting  
-**Tech Stack:** TensorFlow, Keras, Time Series Analysis
-
----
+- Cryptocurrency price prediction using LSTM neural networks
+- Time series preprocessing, architecture design, and forecasting evaluation
+- TensorFlow/Keras, financial KPIs
 
 ### 3. [Genshin Impact Sentiment Analysis](Featured%20Projects/Genshin_Sentiment_Analysis/)
 **NLP | Sentiment Analysis | SMOTE**
+- Social media sentiment classification (85% accuracy)
+- Imbalanced data handling (SMOTE), full NLP pipeline
 
-Social media sentiment classification with 85% accuracy. Handles imbalanced data using SMOTE and demonstrates comprehensive NLP pipeline.
 
-**Key Skills:** NLP, Text Preprocessing, Imbalanced Data Handling  
-**Performance:** 85% Accuracy, Balanced Classes
+## Core Technical Competencies
 
-## 🛠️ Technical Skills Demonstrated
-
-**Machine Learning:**
-- Supervised Learning (Regression, Classification)
-- Ensemble Methods (Random Forest, XGBoost, Gradient Boosting)
-- Model Selection & Hyperparameter Tuning
-- Cross-Validation & Performance Evaluation
+**Machine Learning & AI:**
+- Supervised/unsupervised learning, ensemble methods, hyperparameter tuning
+- Model validation, cross-validation, business metric optimization
 
 **Deep Learning:**
-- LSTM Networks for Time Series
-- Neural Network Architecture Design
-- TensorFlow/Keras Implementation
-- Regularization Techniques (Dropout, L2)
+- LSTM, GRU, neural network architecture, regularization, explainability (SHAP)
 
 **Natural Language Processing:**
-- Text Preprocessing & Cleaning
-- TF-IDF & Count Vectorization
-- Sentiment Analysis
-- SMOTE for Imbalanced Text Data
+- Text preprocessing, TF-IDF, vectorization, sentiment analysis, SMOTE
 
-**Data Analysis & Visualization:**
-- Exploratory Data Analysis (EDA)
-- Statistical Analysis
-- matplotlib, seaborn, plotly
-- Feature Engineering & Selection
+**Data Engineering & Visualization:**
+- ETL pipelines, feature engineering, matplotlib, seaborn, plotly, interactive dashboards
 
-**Tools & Technologies:**
-- Python (pandas, numpy, scikit-learn)
-- TensorFlow/Keras
-- Git & GitHub
-- Jupyter Notebooks
+**Professional Practices:**
+- Modular code, reproducibility, audit trails, compliance (anti-leakage protocols)
+- Institutional reporting, business insights, actionable recommendations
 
-## 📂 Project Categories
 
-### 🔍 Exploratory Data Analysis (EDA)
-- **Car Performance Analysis** - Fuel efficiency and performance metrics
-- **Walmart Sales Analysis** - Retail sales trends and patterns
-- **DebtPenny Analysis** - Financial debt temporal trends
+## Project Categories & Recent Additions
 
-### 📈 Regression & Classification
-- **Finance (Credit Risk)** - Credit risk assessment
-- **Loan Approval System** - Automated loan decisions
-- **Diabetes Prediction** - Medical diagnosis prediction
+### Exploratory Data Analysis (EDA)
+- Car Performance Analysis: Fuel efficiency, comparative statistics
+- Walmart Sales Analysis: Retail trends, time series, price range analytics
+- DebtPenny Analysis: Financial debt, temporal trends
+- Laptop Purchase EDA: Consumer tech market, structural forensics
 
-### 🗣️ Natural Language Processing
-- **Resume Screening** - Automated candidate matching
-- **SMS Spam Detection** - Binary text classification
-- **Language Classification** - Multi-language detection
-- **Text Summarization** - Extractive summarization
-- **Election Sentiment Analysis** - Political tweet analysis
-- **WhatsApp Sentiment** - Chat conversation analysis
+### Regression & Classification
+- Finance (Credit Risk): Loan default risk modeling
+- Loan Approval System: Automated loan decisions (Random Forest)
+- Diabetes Prediction: Medical diagnosis, KNN, visualization
 
-### 💡 Recommender Systems
-- **Book Recommendations** - Collaborative & content-based filtering
+### Natural Language Processing
+- Resume Screening: Automated candidate matching
+- SMS Spam Detection: Binary text classification
+- Language Classification: Multi-language detection
+- Text Summarization: Extractive summarization
+- US Election Sentiment: Political tweet analysis
+- WhatsApp Sentiment: Chat conversation analysis
 
-### 📊 Domain-Specific Analysis
-- **COVID-19 Vaccines** - Global vaccination trends
-- **World Billionaires** - Wealth distribution analysis
-- **Google Search Trends** - Search pattern discovery
+### Recommender Systems
+- Book Recommendation System: Collaborative/content-based filtering
 
-## 🚀 Getting Started
+### Domain-Specific Analysis
+- COVID-19 Vaccines: Global vaccination trends
+- World Billionaires: Wealth distribution analysis
+- Google Search Trends: Pattern discovery
+- Study Abroad Analysis: Education market, fee structure, recommendations
+- Olist E-Commerce Analysis: Retail audit, logistics, customer segmentation
+- Home Credit Default Risk: Portfolio risk signals, red-flag analysis
+- MIMIC-IV ICU Mortality & Sepsis: Healthcare risk modeling, causal inference
+
+
+## Getting Started
 
 ### Prerequisites
 - Python 3.10 or higher
@@ -129,83 +123,78 @@ Social media sentiment classification with 85% accuracy. Handles imbalanced data
 - Jupyter Notebook
 
 ### Installation
-
-1. **Clone the repository**
+1. Clone the repository:
    ```bash
    git clone https://github.com/CodersAcademy006/Jupyter-Analysis.git
    cd Jupyter-Analysis
    ```
-
-2. **Create virtual environment (recommended)**
+2. Create a virtual environment (recommended):
    ```bash
    python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   venv\Scripts\activate  # On Windows
    ```
-
-3. **Install dependencies**
+3. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-
-4. **Download NLTK data (for NLP projects)**
-   ```python
+4. Download NLTK data (for NLP projects):
+   ```bash
    python -c "import nltk; nltk.download('stopwords'); nltk.download('punkt')"
    ```
 
 ### Running Projects
-
+Navigate to any project directory and launch Jupyter:
 ```bash
-# Navigate to any project directory
-cd "Featured Projects/Diamond_Price_Prediction"
-
-# Launch Jupyter Notebook
-jupyter notebook Diamond_Price_Prediction.ipynb
+jupyter notebook <notebook_name>.ipynb
 ```
 
-## 📖 Documentation
 
-Each project directory contains:
-- **README.md** - Project overview, methodology, and results
-- **Jupyter Notebook** - Complete analysis with code and visualizations
-- **data/** - Dataset files (where applicable)
+## Documentation & Auditability
 
-Explore the [Featured Projects README](Featured%20Projects/README.md) for detailed information about showcase projects.
+Each project directory includes:
+- **README.md:** Executive summary, methodology, KPIs, and business impact
+- **Jupyter Notebook:** Complete analysis, code, and visualizations
+- **data/**: Datasets (where applicable)
 
-## 🎯 Intended Audience
+See [Featured Projects README](Featured%20Projects/README.md) for flagship project details.
 
-- **🎓 Recruiters & Hiring Managers** - Evaluate technical skills and project depth
-- **🤝 Collaborators** - Explore partnership opportunities
-- **📚 Students & Learners** - Study real-world data science workflows
-- **💼 Clients** - Assess data science capabilities
 
-## 📈 Project Statistics
+## Intended Audience
 
-- **Total Projects:** 15+
-- **Lines of Code:** 10,000+
-- **Datasets Analyzed:** 20+
-- **ML Models Implemented:** 15+
-- **Visualization Charts:** 100+
+- **Institutional Data Science Teams:** Evaluate technical depth, reproducibility, and business impact
+- **Recruiters & Hiring Managers:** Assess advanced modeling, compliance, and reporting standards
+- **Collaborators & Partners:** Explore scalable, production-ready solutions
+- **Students & Learners:** Study real-world, enterprise-grade workflows
 
-## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
+## Portfolio Statistics
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+- **Projects:** 20+
+- **Lines of Code:** 12,000+
+- **Datasets Analyzed:** 25+
+- **ML/DL Models:** 20+
+- **Professional Visualizations:** 120+
 
-## 📧 Contact
+
+## Contributing
+
+Contributions, issues, and feature requests are welcome. Please fork the repository, create a feature branch, and submit a pull request with a clear description of your enhancement or fix.
+
+
+## Contact
 
 **GitHub:** [@CodersAcademy006](https://github.com/CodersAcademy006)
 
-## 📄 License
+
+## License
 
 This repository is licensed under the Apache License 2.0. See [LICENSE](LICENSE) for details.
 
 ---
 
+
+---
+
 ### ⭐ If you find this repository helpful, please consider giving it a star!
 
-**Built with ❤️ using Python, Jupyter, and lots of data**
+**Built with ❤️ using Python, Jupyter, and enterprise-grade data science**
