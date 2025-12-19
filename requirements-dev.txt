@@ -1,0 +1,88 @@
+# Development & Quality Assurance Tools
+# Portfolio Author: Srijan Upadhyay
+# These dependencies support institutional-grade code quality, testing, and documentation
+
+# Code Formatting & Linting
+black==24.1.1                    # PEP 8 compliant code formatter
+isort==5.13.2                    # Import sorting
+flake8==7.0.0                    # Style guide enforcement
+pylint==3.0.3                    # Advanced static code analysis
+autopep8==2.0.4                  # Auto-format PEP 8 violations
+
+# Type Checking
+mypy==1.8.0                      # Static type checker
+types-requests                    # Type stubs for requests
+types-PyYAML                      # Type stubs for PyYAML
+
+# Testing Frameworks
+pytest==7.4.4                    # Testing framework
+pytest-cov==4.1.0                # Coverage plugin
+pytest-xdist==3.5.0              # Parallel test execution
+pytest-mock==3.12.0              # Mocking plugin
+hypothesis==6.96.0               # Property-based testing
+
+# Code Quality & Security
+bandit==1.7.6                    # Security linter
+safety==3.0.1                    # Dependency vulnerability scanner
+radon==6.0.1                     # Code complexity metrics
+vulture==2.11                    # Dead code detector
+pylint-django==2.5.5             # Django-specific linting (if applicable)
+
+# Documentation Tools
+mkdocs==1.5.3                    # Documentation generator
+mkdocs-material==9.5.6           # Material theme for MkDocs
+mkdocs-jupyter==0.24.6           # Jupyter notebook integration
+pymdown-extensions==10.7         # Markdown extensions
+mkdocstrings[python]==0.24.0     # Auto-generate docs from docstrings
+
+# Jupyter Notebook Tools
+nbformat==5.9.2                  # Notebook format
+nbconvert==7.16.0                # Notebook conversion
+nbstripout==0.7.1                # Strip notebook outputs
+jupyter-contrib-nbextensions==0.7.0  # Notebook extensions
+jupytext==1.16.1                 # Sync notebooks with .py files
+
+# Pre-commit Hooks
+pre-commit==3.6.0                # Git pre-commit hooks framework
+
+# Performance Profiling
+memory-profiler==0.61.0          # Memory profiling
+line-profiler==4.1.1             # Line-by-line profiling
+py-spy==0.3.14                   # Sampling profiler
+
+# Debugging Tools
+ipdb==0.13.13                    # IPython debugger
+pdbpp==0.10.3                    # Enhanced debugger
+
+# Version Control Integration
+gitpython==3.1.41                # Git operations in Python
+
+# CI/CD Utilities
+coverage==7.4.1                  # Code coverage measurement
+codecov==2.1.13                  # Upload coverage to Codecov
+tox==4.12.1                      # Test automation
+
+# API Documentation
+sphinx==7.2.6                    # Documentation generator (alternative to MkDocs)
+sphinx-rtd-theme==2.0.0          # Read the Docs theme
+
+# Dependency Management
+pip-tools==7.3.0                 # Pin dependencies
+pipreqs==0.4.13                  # Generate requirements from imports
+pip-audit==2.7.0                 # Audit for vulnerabilities
+
+# Notebook Execution & Validation
+papermill==2.5.0                 # Parameterized notebook execution
+nbval==0.10.0                    # Validate notebook outputs
+jupyter-client==8.6.0            # Jupyter client
+
+# Code Metrics & Visualization
+pycodestyle==2.11.1              # PEP 8 style checker
+pydocstyle==6.3.0                # Docstring style checker
+mccabe==0.7.0                    # McCabe complexity checker
+
+# Advanced Testing
+faker==22.6.0                    # Generate fake data for tests
+factory-boy==3.3.0               # Fixtures replacement
+responses==0.25.0                # Mock HTTP requests
+freezegun==1.4.0                 # Mock datetime
